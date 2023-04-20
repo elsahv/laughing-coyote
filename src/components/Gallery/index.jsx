@@ -8,7 +8,7 @@ const Gallery = () => {
         Various web designs offered.... here's just a few possibilities!
       </span>
       <div className="py-5">
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid 2xl:grid-cols-2 gap-12 sm:grid-cols-1">
           {content.map((item, index) => (
             <div key={index}>
               {/* <h3>{item.title}</h3> */}
