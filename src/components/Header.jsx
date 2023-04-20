@@ -6,7 +6,7 @@ const Header = () => {
       <div className="2xl:hidden lg:block">
         <Hamburger />
       </div>
-      <header className="pt-5 bg-munsell w-[420px] fixed left-0 h-full border-r-2 ">
+      <header className="pt-5 pl-2 bg-munsell w-[420px] fixed left-0 h-full border-r-2 ">
         <div className="py-3 px-4 text-5xl">
           <a href="/">Laughing Coyote</a>
         </div>
