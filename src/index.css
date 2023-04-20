@@ -44,8 +44,8 @@ span {
 }
 
 .nav-menu {
-  background: #fff;
-  color: #000;
+  background: #0792a5;
+  color: #35373d;
   border: solid 2px #000;
   width:50%;
   height: 25vh;
@@ -54,8 +54,7 @@ span {
   right: 100%;
   transition: 1s;
   @media only screen and (max-width: 600px) {
-    width:20%;
-    height: 10vh;
+ 
   }
 }
 

@@ -7,10 +7,13 @@ const Header = () => {
         <Hamburger />
       </div>
       <header className="pt-5 pl-2 bg-munsell w-[420px] fixed left-0 h-full border-r-2 ">
-        <div className="py-3 px-4 text-5xl">
-          <a href="/">Laughing Coyote</a>
+        <div className="py-2 px-5 text-3xl">
+          <a href="/">
+            <b className="text-4xl">Laughing Coyote-</b>
+            <br /> Web Development/ Design
+          </a>
         </div>
-        <ul className="text-2xl pl-5">
+        <ul className="text-2xl pl-5 ml-1">
           <li>
             <a href="/#services">Services</a>
           </li>

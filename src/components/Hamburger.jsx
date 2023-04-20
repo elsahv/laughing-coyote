@@ -13,10 +13,10 @@ const Hamburger = () => {
       <div>
         <div className={sidebar ? "nav-menu active" : "nav-menu"}>
           <div onClick={showSidebar}>
-            <div className="pl-5 pt-5">
+            <div className="pl-5 pt-5 ">
               <GrClose />
             </div>
-            <ul className="p-5 text-2xl">
+            <ul className="p-5 text-2xl ">
               <li>
                 <a href="/#services">Service</a>s
               </li>
