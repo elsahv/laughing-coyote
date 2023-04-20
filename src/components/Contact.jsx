@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="bg-teal">Contact</h2>
       <p>
         Has my portfolio piqued your interest? If so, you can contact me at
-        devdesignsbyelsa@gmail.com
+        <em>devdesignsbyelsa@gmail.com</em>
       </p>
       <p>Looking forward to hearing from you!</p>
     </section>
