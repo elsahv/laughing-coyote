@@ -5,7 +5,7 @@ const Intro = () => {
     <section className="h-screen">
       <div className="my-5">
         <h1 className="text-4xl my-5">
-          A web design service for small businesses and creative artists
+          A web design service for small businesses owners and creatives.
         </h1>
         <p className="my-5 mx-1">
           Laughing Coyote Development brings small businesses online. orem ipsum
@@ -17,7 +17,9 @@ const Intro = () => {
         <div className="my-5 pl-2">
           <img src={ImageOne} alt="" id="border" />
         </div>
-        <a href="/#services">Find out more</a>
+        <button className="bg-munsell py-1 px-3 border border-onyx ml-2 hover:bg-coral transition delay-100 duration-300 ">
+          <a href="/#services">Find out more</a>
+        </button>
       </div>
     </section>
   );

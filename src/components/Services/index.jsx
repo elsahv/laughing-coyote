@@ -3,7 +3,7 @@ import content from "./data";
 const Services = () => {
   return (
     <section id="services" className="">
-      <div>
+      <div className="">
         <h2 className="bg-coral">Services</h2>
         <p>
           All small businesses should have a website. While social media is
