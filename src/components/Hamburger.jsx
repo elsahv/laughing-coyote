@@ -7,7 +7,7 @@ const Hamburger = () => {
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <div className="bg-parchment">
-      <div className="text-lg p-5">
+      <div className="text-2xl p-5 text-munsell">
         <GiHamburgerMenu onClick={showSidebar} />
       </div>
       <div>
