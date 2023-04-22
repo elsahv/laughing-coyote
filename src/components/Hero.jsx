@@ -17,9 +17,11 @@ const Intro = () => {
         <div className="my-5 pl-2">
           <img src={ImageOne} alt="" id="border" />
         </div>
-        <button className="bg-munsell py-1 px-3 border border-onyx ml-2 hover:bg-coral transition delay-100 duration-300 ">
-          <a href="/#services">Find out more</a>
-        </button>
+        <div className="2xl:my-0 xl:my-[125]">
+          <button className="bg-munsell border border-onyx ml-2 py-1 px-3 hover:bg-coral transition delay-100 duration-300">
+            <a href="/#services">Find out more</a>
+          </button>
+        </div>
       </div>
     </section>
   );
