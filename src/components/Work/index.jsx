@@ -5,7 +5,7 @@ const Services = () => {
     <section id="work" className="">
       <div className="">
         <h2 className="bg-coral">Work Process</h2>
-        <p>
+        <p className="my-5">
           All small businesses should have a website. While social media is
           useful, it is important for small businesses to have its own
           home.luptates inventore maiores dolorum mollitia omnis aliquam dicta?
