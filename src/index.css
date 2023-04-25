@@ -100,3 +100,7 @@ span {
 #message {
   height: 150px;
 }
+
+.error-msg {
+  color: coral;
+}

@@ -15,10 +15,13 @@ const Header = () => {
         </div>
         <ul className="text-2xl pl-5 ml-1">
           <li>
+            <a href="/#about">About</a>
+          </li>
+          <li>
             <a href="/#services">Services</a>
           </li>
           <li>
-            <a href="/#gallery">Gallery</a>
+            <a href="/#work">Work Process</a>
           </li>
 
           <li className="">
