@@ -2,7 +2,7 @@ import content from "./data";
 
 const Gallery = () => {
   return (
-    <section id="services" className="">
+    <section id="services" className="pt-1">
       <h2 className="bg-orange">Services</h2>
       <div className="mb-[50px]">
         <p className="text-lg pl-1">
@@ -17,7 +17,7 @@ const Gallery = () => {
         </p>
       </div>
       <div className="py-5">
-        <div className="grid 2xl:grid-cols-3 gap-2 sm:grid-cols-1 ">
+        <div className="grid 2xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1">
           {content.map((item, index) => (
             <div key={index} className="border border-onyx rounded">
               <h3 className="text-center">{item.title}</h3>

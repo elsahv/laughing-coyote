@@ -7,17 +7,26 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   /* background: #f0ead2; */
 }
 section {
-  padding: 0px 50px 150px 15px;
+  padding: 20px 50px 100px 15px;
   /* height: 100vh; */
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 0;
+  }
+
 }
 
 h2 {
   font-size: 30px;
   border: 1px solid #000;
   margin-bottom: 20px;
+  margin-top: 50px;
   width:fit-content;
   padding: 1px 5px;
 

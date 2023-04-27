@@ -2,7 +2,7 @@ import content from "./data";
 
 const Services = () => {
   return (
-    <section id="work" className="">
+    <section id="work" className="pt-1">
       <div className="">
         <h2 className="bg-coral">Work Process</h2>
         <p className="my-5">

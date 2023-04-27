@@ -2,8 +2,8 @@ import content from "./data";
 
 const Intro = () => {
   return (
-    <section id="about" className="">
-      <div className="my-5">
+    <section id="about" className="pt-1">
+      <div className="">
         <h1 className="text-4xl my-5">
           A web design service for small businesses owners and creatives.
         </h1>
@@ -21,9 +21,11 @@ const Intro = () => {
             <div className="grid 2xl:grid-cols-2 gap-10 sm:grid-cols-1">
               {content.map((item, index) => (
                 <div key={index}>
-                  <h3 className="pl-1 pb-1 text-2xl">{item.title}</h3>
+                  <h3 className="pl-1 pb-1 text-2xl font-bold text-onyx">
+                    {item.title}
+                  </h3>
 
-                  <div id="border">
+                  <div id="border" className="rounded-md">
                     <img src={item.image} alt="" />
                   </div>
 

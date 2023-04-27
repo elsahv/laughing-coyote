@@ -1,8 +1,13 @@
+import { motion } from "framer-motion";
 import Hamburger from "./Hamburger";
 
 const Header = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 0.5 }}
+    >
       <div className="2xl:hidden lg:block">
         <Hamburger />
       </div>
@@ -29,7 +34,7 @@ const Header = () => {
           </li>
         </ul>
       </header>
-    </>
+    </motion.div>
   );
 };
 
