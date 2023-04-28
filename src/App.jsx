@@ -7,13 +7,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="px-5">
       <Hero />
       <Services />
       <Work />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 export default App;
