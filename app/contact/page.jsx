@@ -6,13 +6,15 @@ const Contact = () => {
     <div className="main_grid">
       {/* //*LEFT SIDE */}
       <section className="left-sq pt-[150px]">
-        <h2 className="text-2xl">Contact</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          distinctio aspernatur laborum, nisi nulla amet voluptatum id ipsa
-          incidunt temporibus facilis magni consectetur praesentium fugit
-          aperiam repellendus magnam recusandae voluptate?
-        </p>
+        <div className="bg-parchment border border-cerulean p-5">
+          <h2 className="text-2xl py-1">Contact</h2>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            distinctio aspernatur laborum, nisi nulla amet voluptatum id ipsa
+            incidunt temporibus facilis magni consectetur praesentium fugit
+            aperiam repellendus magnam recusandae voluptate?
+          </p>
+        </div>
       </section>
 
       {/* //*RIGHT SIDE */}

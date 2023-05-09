@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="main_grid">
         {/* //*LEFT SIDE */}
         <section className="left-sq">
@@ -14,7 +14,7 @@ export default function Home() {
         {/* //*RIGHT SIDE */}
         <section className="right-sq">
           <div className=" m-5 p-5 mt-[150px]">
-            <div className="text-cerulean font-bold text-4xl">
+            <div className="_textShadow text-cerulean font-bold text-4xl">
               A{" "}
               <Link className="underline" href="/services">
                 web design

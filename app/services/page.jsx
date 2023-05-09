@@ -27,7 +27,7 @@ const Services = () => {
           <div className="grid 2xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1 px-5 mt-5 ">
             {content.map((item, index) => (
               <div key={index} className="rounded-lg bg-onyx">
-                <h3 className="text-center font-bold text-onyx pt-3">
+                <h3 className="text-center font-bold text-parchment pt-3">
                   {item.title}
                 </h3>
                 <div className="flex justify-center py-2">
@@ -35,10 +35,10 @@ const Services = () => {
                     src={item.image}
                     alt=""
                     id="border"
-                    className="rounded-2xl w-16 p-3 bg-parchment border border-onyx"
+                    className="rounded-2xl w-16 p-3 bg-munsell border border-onyx"
                   />
                 </div>
-                <p className="px-2 pt-1 pb-3 text-md text-center text-munsell">
+                <p className="px-2 pt-1 pb-3 text-md text-center text-aquamarine">
                   {item.paragraph1}
                 </p>
               </div>

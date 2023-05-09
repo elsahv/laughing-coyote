@@ -58,11 +58,8 @@ p {
  
  
  
- #btn {
-   /* width: 120px;
-   margin-top: 20px;
-   margin-left: 1px;
-   padding: 5px 10px; */
+ ._textShadow{
+  text-shadow: 1px 1px 1px #35373d;
  }
  
  #message {
