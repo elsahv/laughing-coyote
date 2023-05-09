@@ -4,7 +4,8 @@ import content from "./data";
 const Services = () => {
   return (
     <div id="services" className="main_grid">
-      <section className="left-sq pt-[150px] bg-parchment text-onyx">
+      {/* //*LEFT SQ */}
+      <section className="left-sq 2xl:pt-[150px] lg:pt-1 bg-parchment text-onyx">
         <div className="mb-[50px]">
           <p className="text-lg pl-1 py-5">
             So why should you bother with a website when social media is
@@ -19,6 +20,7 @@ const Services = () => {
         </div>
       </section>
 
+      {/* //*RIGHT SQ */}
       <section className="right-sq">
         <div className="py-5">
           <h2 className="font-bold text-lg text-center underline">
@@ -35,7 +37,7 @@ const Services = () => {
                     src={item.image}
                     alt=""
                     id="border"
-                    className="rounded-2xl w-16 p-3 bg-munsell border border-onyx"
+                    className="rounded-2xl w-16 p-3 bg-parchment border border-onyx"
                   />
                 </div>
                 <p className="px-2 pt-1 pb-3 text-md text-center text-aquamarine">
