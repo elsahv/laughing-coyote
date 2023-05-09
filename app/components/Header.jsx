@@ -1,13 +1,17 @@
 "use client";
 import Link from "next/link";
+// import Hamburger from "./Hamburger";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 z-50 w-full flex justify-center border-b-2 border-onyx bg-white">
-      <div className="flex p-5">
-        <ul className="flex">
+    // <>
+    <header className="fixed top-0 z-50 w-full flex justify-center border-b-2 border-onyx bg-white">
+      <nav className="2xl:p-5 md:p-3 sm:shrink-0 pb-5">
+        <ul className="2xl:flex lg:shrink-0">
           <Link href="/" className="mx-2 text-lg">
-            <h1 className="font-bold text-2xl mr-3">Laughing Coyote</h1>
+            <h1 className="font-bold text-2xl ml-3 pl-4 sm:ml-5 mr-0">
+              Laughing Coyote
+            </h1>
           </Link>
           <Link href="/services" className="mx-2 pt-1">
             Services
@@ -32,8 +36,9 @@ const Header = () => {
             Contact
           </Link>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
+    // </>
   );
 };
 

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="">
         <Header />
-        <main className="bg-munsell h-[790px]">{children}</main>
+        <main className="bg-munsell">{children}</main>
         <Footer />
       </body>
     </html>
