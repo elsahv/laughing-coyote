@@ -3,10 +3,10 @@ import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
-    <div className="main_grid">
+    <div className="main_grid ">
       {/* //*LEFT SIDE */}
-      <section className="left-sq pt-[150px]">
-        <div className="bg-parchment border border-cerulean p-5">
+      <section className="left-sq pt-[50px] text-aquamarine">
+        <div className="2xl:p-5 lg:p-1">
           <h2 className="text-2xl py-1">Contact</h2>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
@@ -18,8 +18,8 @@ const Contact = () => {
       </section>
 
       {/* //*RIGHT SIDE */}
-      <section className="right-sq flex justify-center items-center flex-col">
-        <h2 className="font-bold text-lg">Contact</h2>
+      <section className="right-sq flex flex-col mt-[50px] 2xl:mx-5 lg:mx-1">
+        <h2 className="font-bold text-3xl">Contact</h2>
         <ContactForm />
       </section>
     </div>

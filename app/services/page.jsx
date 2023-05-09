@@ -1,22 +1,27 @@
 import Image from "next/image";
 import content from "./data";
+import Link from "next/link";
 
 const Services = () => {
   return (
     <div id="services" className="main_grid">
       {/* //*LEFT SQ */}
-      <section className="left-sq 2xl:pt-[150px] lg:pt-1 bg-parchment text-onyx">
-        <div className="mb-[50px]">
-          <p className="text-lg pl-1 py-5">
+      <section className="left-sq 2xl:pt-[80px] lg:pt-[50px] bg-parchment text-onyx ">
+        <div className="mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
+          <h2 className="font-bold text-2xl">
             So why should you bother with a website when social media is
-            available? What can a website do for your business? A website
-            provides a platform for small businesses to showcase their products
-            or services to a wider audience.
+            available? What can a website do for your business?
+          </h2>
+
+          <p className="text-lg pl-1 py-5">
+            A website provides a platform for small businesses to showcase their
+            products or services to a wider audience.
           </p>
           <p className="text-lg py-5">
             Its like frozen meals. Yes you can buy your meal frozen. But you can
             also cook for yourself and it will taste better in the end (mostly)
           </p>
+          <Link href="/gallery">gallery Cta</Link>
         </div>
       </section>
 

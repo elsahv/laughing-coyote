@@ -54,7 +54,11 @@ const ContactForm = () => {
 
   return (
     <div>
-      <form ref={form} onSubmit={handleSubmit} className=" flex flex-col">
+      <form
+        ref={form}
+        onSubmit={handleSubmit}
+        className="flex flex-col 2xl:w-3/4  md:w-full"
+      >
         {/* //* NAME */}
         <label id="form-label" htmlFor="name">
           {errors.name && touched.name ? (

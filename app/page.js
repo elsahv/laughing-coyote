@@ -4,16 +4,18 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
-      <div className="main_grid">
+    <div className="">
+      <div className="main_grid overflow-hidden">
         {/* //*LEFT SIDE */}
-        <section className="left-sq">
-          <Image src={Coyote} alt="" className="w-full" />
+        <section className="left-sq ">
+          <div className="2xl:w-full md:w-3/4 ">
+            <Image src={Coyote} alt="" className="" />
+          </div>
         </section>
 
         {/* //*RIGHT SIDE */}
-        <section className="right-sq">
-          <div className=" m-5 p-5 mt-[150px]">
+        <section className="bg-red-400 right-sq ">
+          <div className=" m-5 p-5 2xl:mt-[150px] lg:mt-5">
             <div className="_textShadow text-cerulean font-bold text-4xl">
               A{" "}
               <Link className="underline" href="/services">
