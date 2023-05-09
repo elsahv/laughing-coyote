@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ["Satoshi", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        satoshi: ["Cormorant Garamond", "serif"],
+        inter: ["Inter", "serif"],
       },
       colors: {
         munsell: "#0792a5",

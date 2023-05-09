@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef, useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -62,7 +64,7 @@ const ContactForm = () => {
           )}
         </label>
         <input
-          className="form-input"
+          className="form-input bg-parchment"
           value={values.name}
           onBlur={handleBlur}
           onChange={handleChange}
@@ -79,7 +81,7 @@ const ContactForm = () => {
           )}
         </label>
         <input
-          className="form-input"
+          className="form-input bg-parchment"
           value={values.email}
           onBlur={handleBlur}
           onChange={handleChange}
@@ -96,7 +98,7 @@ const ContactForm = () => {
           )}
         </label>
         <textarea
-          className="form-input"
+          className="form-input bg-parchment"
           value={values.message}
           onBlur={handleBlur}
           onChange={handleChange}
@@ -106,8 +108,7 @@ const ContactForm = () => {
         />
         {/* BUTTON */}
         <input
-          className="form-input bg-orange"
-          id="btn"
+          className="border border-black w-1/4 mt-5 bg-parchment rounded-md p-1 cursor-pointer"
           type="submit"
           value="send message"
         />

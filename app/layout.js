@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Laughing Coyote | Development & Design",
@@ -13,11 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="overflow-hidden">
+      <body className="">
         <Header />
-        <main className="bg-munsell h-[750px] flex justify-center items-center">
-          {children}
-        </main>
+        <main className="bg-munsell h-[790px]">{children}</main>
         <Footer />
       </body>
     </html>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html{
+   font-family: 'Cormorant Garamond', serif;
+}
+
+
 @layer components {
  .main_grid{
     display:grid;
@@ -11,34 +17,60 @@
  }
 
  .left-sq{
-    /* height:790px; */
-    border-right: solid 1px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border-right: solid 2px #35373d;
     padding: 25px;
  }
 
  .right-sq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding: 25px;
  }
+}
 
- h1 {
-   text-shadow: 1px 1px 1px #35373d;
+
+
+p {
+  line-height: 1.5;
+}
+
+/* //*CONTACT FORM */
+#form-label {
+   padding:  2px;
+   margin-top: 20px;
  }
-
-h2 {
-   color: #007ba5;   
-   font-size: 30px;
-   text-shadow: 1px 1px 1px #000;
-}
-
-
-
-}
-
+ 
+ /* //*FORM INPUT STYLES */
+ .form-input {
+   border: 1px solid #000;
+   width: 500px;
+   border-radius: 5px;
+   padding: 5px 1px 5px 5px;
+ }
+     @media only screen and (max-width: 599px) {
+    .form-input {
+     width: 300px;
+     }
+   }
+      @media only screen and (max-width: 399px) {
+    .form-input {
+     width: 250px;
+     }
+   }
+ 
+ 
+ 
+ #btn {
+   /* width: 120px;
+   margin-top: 20px;
+   margin-left: 1px;
+   padding: 5px 10px; */
+ }
+ 
+ #message {
+   height: 150px;
+ }
+ 
+ .error-msg {
+   color: coral;
+ }
+ 
+ /* //*end FORM INPUT STYLES */
