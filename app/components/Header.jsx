@@ -5,17 +5,19 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-10 w-full flex justify-center border-b-2 border-onyx bg-white">
       <div className="flex p-5">
-        <ul className="flex justify-between">
-          <Link href="/" className="mx-2">
-            <h1 className="font-bold">Laughing Coyote</h1>
+        <ul className="flex">
+          <Link href="/" className="mx-2 text-lg">
+            <h1 className="font-bold text-2xl mr-3">Laughing Coyote</h1>
           </Link>
-          <Link href="/services" className="mx-2">
+          <Link href="/services" className="mx-2 pt-1">
             Services
           </Link>
-          <Link href="/work" className="mx-2">
+
+          {/* //todo MAKE VISIBLE WHEN READY... */}
+          {/* <Link href="/work" className="mx-2">
             Work Process
-          </Link>
-          <Link href="/gallery" className="mx-2">
+          </Link> */}
+          <Link href="/gallery" className="mx-2 pt-1">
             Gallery
           </Link>
 
@@ -25,7 +27,7 @@ const Header = () => {
           </Link> */}
           <Link
             href="/contact"
-            className="mx-2 px-4 drop-shadow-lg border border-black bg-munsell"
+            className="ml-5 pt-0.5 px-3 drop-shadow-lg border border-black bg-munsell hover:bg-aquamarine hover:text-munsell"
           >
             Contact
           </Link>

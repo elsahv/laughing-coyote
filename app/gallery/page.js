@@ -7,7 +7,7 @@ import Wtbh from "../../public/screenshots/wtbh.png";
 const page = () => {
   return (
     <div className="bg-munsell pb-[100px] ">
-      <div className="pl-5 ml-5 mb-5">
+      <div className="mb-5 bg-parchment w-full drop-shadow-lg pl-5 pb-3">
         <h2 className="bg-coral font-bold text-2xl pt-[50px] underline">
           Gallery
         </h2>
@@ -19,7 +19,7 @@ const page = () => {
       </div>
       <section className="grid grid-cols-2 grid-rows-2 gap-x-1 gap-y-5 px-5 pt-[50px]">
         <div className="mx-5">
-          <h2 className="text-2xl text-onyx font-bold pl-1 pb-1">
+          <h2 className="text-2xl text-parchment font-bold pl-1 pb-1">
             ...Portfolios
           </h2>
           <Image

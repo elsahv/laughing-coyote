@@ -4,8 +4,7 @@ import content from "./data";
 const Services = () => {
   return (
     <div id="services" className="main_grid">
-      <section className="left-sq pt-[150px]">
-        <h2 className="text-3xl font-bold">Services</h2>
+      <section className="left-sq pt-[150px] bg-parchment text-onyx">
         <div className="mb-[50px]">
           <p className="text-lg pl-1 py-5">
             So why should you bother with a website when social media is
@@ -22,10 +21,15 @@ const Services = () => {
 
       <section className="right-sq">
         <div className="py-5">
-          <div className="grid 2xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1">
+          <h2 className="font-bold text-lg text-center underline">
+            Services Offered:
+          </h2>
+          <div className="grid 2xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1 px-5 mt-5 ">
             {content.map((item, index) => (
-              <div key={index} className="border border-onyx rounded">
-                <h3 className="text-center">{item.title}</h3>
+              <div key={index} className="rounded-lg bg-onyx">
+                <h3 className="text-center font-bold text-onyx pt-3">
+                  {item.title}
+                </h3>
                 <div className="flex justify-center py-2">
                   <Image
                     src={item.image}
@@ -34,7 +38,7 @@ const Services = () => {
                     className="rounded-2xl w-16 p-3 bg-parchment border border-onyx"
                   />
                 </div>
-                <p className="px-2 pt-1 pb-3 text-md text-center">
+                <p className="px-2 pt-1 pb-3 text-md text-center text-munsell">
                   {item.paragraph1}
                 </p>
               </div>
