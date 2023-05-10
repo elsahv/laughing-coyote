@@ -1,4 +1,4 @@
-import GalleryInfo from "../components/sections/GalleryInfo";
+import GalleryInfo from "../components/Sections";
 
 const page = () => {
   return (

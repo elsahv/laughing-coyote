@@ -1,11 +1,11 @@
-import Hero from "./components/sections/Hero";
-import Services from "./components/sections/ServicesInfo";
-import Gallery from "./components/sections/GalleryInfo";
-import Contact from "./components/sections/ContactInfo";
+import Hero from "./components/Sections/Hero";
+import Services from "./components/Sections/ServicesInfo";
+import Gallery from "./components/Sections";
+import Contact from "./components/Sections/ContactInfo";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-munsell">
       <Hero />
       <div className="2xl:hidden lg:relative">
         <Services />
