@@ -17,7 +17,7 @@ const Contact = () => {
             >
               devdesignsbyelsa@gmail.com
             </a>
-            , or simply fill out the form on the right.
+            , or simply fill out the form on the right
             <br />
             Looking forward to hearing from you!
           </p>
