@@ -22,7 +22,7 @@ const Hero = () => {
             </Link>{" "}
             service for small businesses owners and creatives.
           </div>
-          <p className="text-aquamarine mt-1 mb-5 mx-1 text-lg">
+          <p className="text-aquamarine mt-1 mb-5 mx-1 text-2xl pt-2">
             Welcome! Laughing Coyote Development is a digital studio which
             brings small businesses online.
           </p>
