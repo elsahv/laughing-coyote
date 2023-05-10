@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+   font-family: 'Cormorant Garamond', serif;
+}
+
+
+@layer components {
+ .main_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background: #0792a5;
+ }
+
+ @media only screen and (max-width: 1024px) {
+  .main_grid{
+    display:grid;
+    grid-template-columns: 1fr;
+ }
+ }
+
+
+ /* //*LEFT SQ ********/
+ .left-sq{
+    border-right: solid 2px #35373d;
+    padding: 25px;
+    height:100vh;
+ }
+
+ @media only screen and (max-width: 1024px) {
+  .left-sq{
+    height:100vh;
+ }
+ }
+
+   @media only screen and (max-width: 600px) {
+  .left-sq{
+ padding: 10px;
+ }
+ }
+
+ /* //*END LEFT SQ ********/
+
+ /* //*RIGHT SQ ********/
+ .right-sq{
+    padding: 25px;
+ }
+}
+
+@media only screen and (max-width: 1024px) {
+  .right-sq{
+    height:100vh;
+ }
+ }
+
+  @media only screen and (max-width: 600px) {
+  .right-sq{
+ padding: 10px;
+ }
+ }
+
+ /* //*END RIGHT SQ ********/
+ 
+
+
+/* //*HEADER */
+.nav-menu {
+  background: #0792a5;
+  color: #35373d;
+  border: solid 2px #000;
+  width:50%;
+  height: 25vh;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  transition: 1s;
+
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 1s;
+  position: absolute;
+  z-index: 20;
+}
+
+/* //*end HEADER */
+
+
+
+
+/* //*CONTACT FORM */
+#form-label {
+   padding:  2px;
+   margin-top: 20px;
+ }
+ 
+ /* //*FORM INPUT STYLES */
+ .form-input {
+   border: 2px solid #007ba5;
+   width: 100%;
+   border-radius: 5px;
+   padding: 5px 1px 5px 5px;
+ }
+     @media only screen and (max-width: 599px) {
+    .form-input {
+     /* width: 300px; */
+     }
+   }
+      @media only screen and (max-width: 399px) {
+    .form-input {
+     /* width: 250px; */
+     }
+   }
+ 
+ 
+ 
+ ._textShadow{
+  text-shadow: 1px 1px 1px #35373d;
+ }
+ 
+ #message {
+   height: 150px;
+ }
+ 
+ .error-msg {
+   color: coral;
+ }
+ 
+ /* //*end FORM INPUT STYLES */
+
+

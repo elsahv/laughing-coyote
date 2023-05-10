@@ -1,24 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
-    colors: {
-      onyx: "#35373d",
-      teal: "#008080",
-      munsell: "#0792a5",
-      parchment: "#f0ead2",
-      orange: "#ffa500",
-      coral: "#ff7f50",
-      test: "red",
+    extend: {
+      fontFamily: {
+        satoshi: ["Cormorant Garamond", "serif"],
+        inter: ["Inter", "serif"],
+      },
+      colors: {
+        munsell: "#0792a5",
+        cerulean: "#007ba5",
+        aquamarine: "#7FFFD4",
+        parchment: "#f0ead2",
+        onyx: "#35373d",
+      },
     },
-    //todo LEARN
-    // backgroundSize: {
-    //   auto: "auto",
-    //   cover: "cover",
-    //   contain: "contain",
-    //   "50%": "50%",
-    //   16: "4rem",
-    // },
   },
   plugins: [],
 };
