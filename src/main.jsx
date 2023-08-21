@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       transition={{ delay: 0.3, duration: 0.5 }}
     >
       <Header />
-      <div className="p-5 2xl:w-[1500px] absolute right-0 overflow-scroll h-full bg-parchment lg:w-[100%]">
+      <div className="border border-black p-5 2xl:w-[1500px] absolute right-0 overflow-scroll h-full bg-parchment lg:w-[100%]">
         <App />
       </div>
     </motion.div>

@@ -8,7 +8,6 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* background: #f0ead2; */
 }
 section {
   padding: 20px 50px 100px 15px;
@@ -112,4 +111,15 @@ span {
 
 .error-msg {
   color: coral;
+}
+
+#grid-content {
+  padding-left: 105px;
+  padding-right: 155px;
+  padding-top: 15px;
+  color: #35373d;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px 1px #000;
 }
