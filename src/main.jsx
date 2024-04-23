@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import Header from "./components/Header";
 import { motion } from "framer-motion";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,10 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       animate={{ opacity: 1 }}
       transition={{ delay: 0.3, duration: 0.5 }}
     >
-      <Header />
-      <div className="border border-black p-5 2xl:w-[1500px] absolute right-0 overflow-scroll h-full bg-parchment lg:w-[100%]">
-        <App />
-      </div>
+      <App />
     </motion.div>
   </React.StrictMode>
 );

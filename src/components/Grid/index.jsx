@@ -7,7 +7,7 @@ const Services = () => {
         {content.map((item, index) => (
           <div key={index} className="">
             <div id="grid-content" className="py-5">
-              <h3 className="text-4xl mb-1 mt-2">{item.title}</h3>
+              <h3 className="text-4xl mb-1 mt-2"> {item.title}</h3>
               <span className="pl-2 text-2xl text-onyx">date</span>
             </div>
             <img
