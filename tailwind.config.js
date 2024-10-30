@@ -16,7 +16,7 @@ export default {
         parchment: "#f0ead2",
         orange: "#ffa500",
         coral: "#ff7f50",
-        test: "red",
+        red: "red",
       },
     },
     plugins: [],
